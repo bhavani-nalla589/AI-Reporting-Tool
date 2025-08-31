@@ -1,0 +1,32 @@
+# Core
+gradio
+fastapi
+uvicorn
+requests
+pandas
+plotly
+fpdf
+speechrecognition
+fuzzywuzzy
+mysql-connector-python
+
+# AI & LangChain
+langchain
+langchain-openai
+openai
+
+# Visualization
+matplotlib
+openpyxl
+
+# Pydantic for request/response models
+pydantic
+
+# Utils
+python-dotenv
+
+
+#Created Tables
+Clients(client_id, client_name, region, type)
+Products(product_id, product_name, category)
+Trades(trade_id, client_id, product_id, trade_volume, trade_price, trade_date)
